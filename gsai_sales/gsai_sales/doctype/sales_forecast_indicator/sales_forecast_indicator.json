@@ -1,0 +1,129 @@
+{
+ "actions": [],
+ "allow_copy": 1,
+ "creation": "2025-04-09 01:44:37.751248",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "hash_key",
+  "select_field_hash",
+  "source",
+  "date",
+  "is_condensed",
+  "record_count",
+  "condensed_date",
+  "column_break_ivlo",
+  "sales_order",
+  "item_code",
+  "item_group",
+  "target_qty",
+  "target_value",
+  "data"
+ ],
+ "fields": [
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date",
+   "search_index": 1
+  },
+  {
+   "fieldname": "item_group",
+   "fieldtype": "Link",
+   "label": "Item Group",
+   "options": "Item Group"
+  },
+  {
+   "fieldname": "column_break_ivlo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "target_qty",
+   "fieldtype": "Float",
+   "label": "Target Qty"
+  },
+  {
+   "fieldname": "target_value",
+   "fieldtype": "Float",
+   "label": "Target Value"
+  },
+  {
+   "fieldname": "sales_order",
+   "fieldtype": "Link",
+   "label": "Sales Order",
+   "options": "Sales Order"
+  },
+  {
+   "fieldname": "data",
+   "fieldtype": "JSON",
+   "label": "Data"
+  },
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "label": "Item Code",
+   "options": "Item"
+  },
+  {
+   "fieldname": "hash_key",
+   "fieldtype": "Data",
+   "label": "Hash",
+   "read_only": 1
+  },
+  {
+   "fieldname": "select_field_hash",
+   "fieldtype": "Data",
+   "label": "Select Field Hash",
+   "read_only": 1
+  },
+  {
+   "fieldname": "source",
+   "fieldtype": "Data",
+   "label": "Source",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "is_condensed",
+   "fieldtype": "Check",
+   "label": "Is Condensed"
+  },
+  {
+   "fieldname": "record_count",
+   "fieldtype": "Float",
+   "label": "Record Count"
+  },
+  {
+   "fieldname": "condensed_date",
+   "fieldtype": "Date",
+   "label": "Condensed Date"
+  }
+ ],
+ "hide_toolbar": 1,
+ "in_create": 1,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-11 11:23:34.321825",
+ "modified_by": "Administrator",
+ "module": "GSAI Sales",
+ "name": "Sales Forecast Indicator",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "read_only": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

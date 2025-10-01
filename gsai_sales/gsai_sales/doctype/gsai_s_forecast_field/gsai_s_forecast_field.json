@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-09 15:48:03.267589",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "fieldname",
+  "is_feature",
+  "is_group_by_field",
+  "is_filterable",
+  "column_break_xksm",
+  "label",
+  "fieldtype",
+  "default"
+ ],
+ "fields": [
+  {
+   "fieldname": "fieldname",
+   "fieldtype": "Autocomplete",
+   "in_list_view": 1,
+   "label": "Fieldname"
+  },
+  {
+   "fieldname": "default",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Default"
+  },
+  {
+   "fieldname": "column_break_xksm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "fieldtype",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "FieldType"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_group_by_field",
+   "fieldtype": "Check",
+   "label": "Is Group By Field"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_filterable",
+   "fieldtype": "Check",
+   "label": "Is Filterable"
+  },
+  {
+   "fieldname": "label",
+   "fieldtype": "Data",
+   "label": "Label"
+  },
+  {
+   "default": "1",
+   "fieldname": "is_feature",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Is Feature"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-04-11 17:00:45.819547",
+ "modified_by": "Administrator",
+ "module": "GSAI Sales",
+ "name": "GSAI-S Forecast Field",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
